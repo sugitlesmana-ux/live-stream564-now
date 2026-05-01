@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "live-stream564-now",
+  "builds": [
+    { "src": "*.html", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
